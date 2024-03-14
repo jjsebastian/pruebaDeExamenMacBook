@@ -21,7 +21,7 @@ object DataStoreManager {
     }
     suspend fun getUserName(context: Context): Flow<String> {
         return context.dataStore.data.map { editor ->
-            editor[userNameKey] ?: "no hay frutas"
+            editor[userNameKey] ?: "no hay datos"
         }
     }
     suspend fun delateAll(context: Context){
