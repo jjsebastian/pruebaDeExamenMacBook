@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ColegioDeberes</string>
+    <string name="usuario_nombre">Nombre de usuario\n</string>
+    <string name="btn_acceso">Acceder</string>
+</resources>
